@@ -19,7 +19,7 @@ def main():
         campaigns = all_campaign_list(playwright)
 
     # タイトルに含まれていたら対象とする文字列
-    target_campaigns = ["250円", "500円", "490円"]
+    target_campaigns = ["250円", "500円"]
 
     # 対象のキャンペーンのみを表示する
     for campaign in campaigns:
